@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>list box</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="hobby">
+            <p>趣味を選択</p>
+            <form name="hobby_form" method="post" action="listbox_view.php">
+                <select name="hobby[]" size="5" multiple>
+                    <option value="旅行">旅行</option>
+                    <option value="スポーツ">スポーツ</option>
+                    <option value="音楽">音楽</option>
+                    <option value="カラオケ">カラオケ</option>
+                    <option value="写真">写真</option>
+                </select>
+                <input type="submit" value="送信">
+            </form>
+        </div>
+    </body>
+</html>

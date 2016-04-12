@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>プルダウンテスト</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="bloodtype">
+            <p>血液型を選択してください</p>
+            <form name="blood_form" method="post" action="pulldown_view.php">
+                <select name="blood">
+                    <option value="" selected>---けつえき型を選択---</option>
+                    <option value="A">A型</option>
+                    <option value="B">B型</option>
+                    <option value="O">O型</option>
+                    <option value="AB">AB型</option>
+                </select>
+                <input type="submit" value="送信">
+            </form>
+        </div>
+        
+    </body>
+</html>
